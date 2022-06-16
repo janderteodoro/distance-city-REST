@@ -1,7 +1,7 @@
 'use strict';
 
-async function searchCep(city, axios){
-    const url = `https://viacep.com.br/ws/${city.state}/${city.name}/${city.street}/json/`
+async function searchCep(city, axios, endpoint){
+    const url = `${endpoint}/${city.state}/${city.name}/${city.street}/json/`
 
     try {
         const response = await axios.get(url);

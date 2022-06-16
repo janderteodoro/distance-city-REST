@@ -8,13 +8,13 @@ const homePage = (app) => {
     })
 }
 
-const city = (app, searchCep, axios, searchDistance, cepCoords) => {
+const city = (app, searchCep, axios, searchDistance, cepCoords, endpoint) => {
     app.post('/city', async (req, res) => {
         const { body } = req;
         const city1 = body.city1;
         const city2 = body.city2;
-        const cep1 = await searchCep(city1, axios);
-        const cep2 = await searchCep(city2, axios);
+        const cep1 = await searchCep(city1, axios, endpoint);
+        const cep2 = await searchCep(city2, axios, endpoint);
         const response = await searchDistance(cepCoords, cep1, cep2);
         
         res.json({

@@ -25,7 +25,7 @@ Hour of runner our system. In source runner `npm start`, then we have something 
 ## step 4
 In your front end ( in my case is the Insomnia, because i'm backend only kkkk ) make the request for consume the route with POST method HTTP in `http://localhost:<yourport>/city`.
 
-Create a payload with the following structure and replace for your informations: <br>
+Create a payload with the following structure and replace with your informations: <br>
 
 ![api runner with nodemon](/img/payload.png)
 

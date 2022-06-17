@@ -12,9 +12,10 @@ By having the node installed in your PC, clone this project using the git clone,
 Now we will create the environment variables. Then in your source path create a new file weith de name `.env` only. Open it and here you will put only two informations: Port wath the API will run and enpoint of API whi we will cosumer.
 
 Model env:<br>
+```
 **PORT**=4444<br>
 **ENDPOINTCEP**=https://viacep.com.br/ws
-
+```
 
 ## step 3 
 Hour of runner our system. In source runner `npm start`, then we have something similiar with this: 

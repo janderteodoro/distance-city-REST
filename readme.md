@@ -13,8 +13,8 @@ Now we will create the environment variables. Then in your source path create a 
 
 Model env:<br>
 ```
-**PORT**=4444<br>
-**ENDPOINTCEP**=https://viacep.com.br/ws
+PORT=4444<br>
+ENDPOINTCEP=https://viacep.com.br/ws
 ```
 
 ## step 3 
